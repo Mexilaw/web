@@ -1,0 +1,98 @@
+html{
+    height: 100%;
+}
+body{
+    font-family: "Josefin Sans", sans-serif;
+    background: url('img/writing-book-wood-brand-sad-art-1083215-pxhere.com.jpg') -500px -200px,linear-gradient(#f2f1f6,#b8cace);
+}
+section.login{
+    margin: 80px auto;
+    padding: 20px 0 60px 0;
+    width: 400px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 5px gray;   
+}
+section.login h1{
+    color: #a3a9f0;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 400;
+    padding: 10px;
+}
+section.login form{
+    width: 75%;
+    margin: 0 auto;
+    text-align: right;
+}
+section.login input[type="text"],
+section.login input[type="password"],
+section.login input[type="email"],
+div.send
+{
+    display: block;
+    font-family: "Josefin Sans", sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 10px;
+    margin: 20px 0;
+    text-align: left;
+}
+section.login input[type="text"],
+section.login input[type="password"],
+section.login input[type="email"]{
+   border-bottom: 1px solid #dbdcde;
+   background-repeat: no-repeat;
+   background-position: 10px center;
+   padding-left: 50px;
+}
+section.login input[type="email"]{
+    background-image: url('img/round_email_black_24dp.png');
+}
+section.login input[type="password"]{
+    background-image: url('img/round_lock_black_24dp.png');
+}
+section.login input[type="text"]{
+    background-image: url('img/round_account_circle_black_24dp.png');
+}
+section.login a{
+    display: inline-block;
+    border-radius: 10px;
+    border: 1px solid #a3a9f8;
+    background-color: blue;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+section.login a:hover{
+    background-color: green;
+}
+.josefin-sans-uniquifier {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+section.login label{
+    color: grey;
+    font-family: "Josefin Sans", sans-serif;
+}
+::placeholder{
+    color: grey;
+}
+section.login input[type="text"]:valid,
+section.login input[type="password"]:valid,
+section.login input[type="email"]:valid
+{
+    border-bottom-color: lightgreen;
+    background-color: lightgreen;
+}
+section.login input[type="text"]:invalid,
+section.login input[type="password"]:invalid,
+section.login input[type="email"]:invalid
+{
+    border-bottom-color: lightcoral;
+    background-color: lightcoral;
+}
